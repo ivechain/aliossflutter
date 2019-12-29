@@ -135,3 +135,21 @@ alioss.exist(bucket, key).then((exist) {
 写了个插件开发过程，可以参考下
 [插件开发方法](https://github.com/jlcool/aliossflutter/wiki/%E6%8F%92%E4%BB%B6%E5%BC%80%E5%8F%91%E6%B5%81%E7%A8%8B).
 
+
+增加对AndroidX支持。
+
+说明：flutter build apk如果出现以下错误：
+
+![reason](./static/reason.png)
+
+在AndroidManifest.xml 增加以下内容： 
+
+1、xmlns:tools="http://schemas.android.com/tools"  
+
+2、tools:replace="android:label"
+
+![sovle1](./static/solve1.png)
+
+![sovle2](./static/solve2.png)
+
+
