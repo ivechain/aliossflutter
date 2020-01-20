@@ -1,5 +1,13 @@
 # aliossflutter
 
+# Getting Started
+### 导入`lifecycle_state`
+```
+lifecycle_state:
+    git:
+      url: "https://github.com/ivechain/lifecycle_state.git"
+```
+
 example里的配置文件自行添加配置
 ```dart
 ///https://help.aliyun.com/document_detail/102082.html?spm=a2c4g.11186623.6.626.15695d26D8hGYE
