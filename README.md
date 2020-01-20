@@ -5,7 +5,7 @@
 ```
 lifecycle_state:
     git:
-      url: "https://github.com/ivechain/lifecycle_state.git"
+      url: "https://github.com/ivechain/aliossflutter.git"
 ```
 
 example里的配置文件自行添加配置
