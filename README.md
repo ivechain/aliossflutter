@@ -1,9 +1,9 @@
 # aliossflutter
 
 # Getting Started
-### 导入`lifecycle_state`
+### 导入`aliossflutter`
 ```
-lifecycle_state:
+aliossflutter:
     git:
       url: "https://github.com/ivechain/aliossflutter.git"
 ```
